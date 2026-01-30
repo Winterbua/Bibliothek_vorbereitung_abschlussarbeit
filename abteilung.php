@@ -43,12 +43,16 @@
     </form>
 
     <?php
+        /*
+        if ($_SERVER["REQUEST_METHOD"] === "POST") {
             $name = $_POST["abName"];
             $ort = $_POST["abOrt"];
 
             $sql = "INSERT INTO abteilung (abtName, ort) VALUES ('$name', '$ort')";
 
             $abfrage = mysqli_query($verbindung, $sql);
+        }
+        */
     ?>
 <script src="script.js"></script>
 </body>
